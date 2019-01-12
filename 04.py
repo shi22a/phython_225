@@ -1,23 +1,15 @@
-from tkinter import Tk, Label, Button
+#Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+# between 2000 and 3200 (both included).
+# The numbers obtained should be printed in a comma-separated sequence on a single line.
+
+x=2000
+y=3200
+
+def find_number(a,b):
+    l=[]
+    for i in range(a,b):
+       l.append(i)
+    return l
+print(find_number(x,y))
 
 
-class MyFirstGUI:
-    def __init__(self, master):
-        self.master = master
-        master.title("A simple GUI")
-
-        self.label = Label(master, text="This is our first GUI!")
-        self.label.pack()
-
-        self.greet_button = Button(master, text="Greet", command=self.greet)
-        self.greet_button.pack()
-
-        self.close_button = Button(master, text="Close", command=master.quit)
-        self.close_button.pack()
-
-    def greet(self):
-        print("Greetings!")
-
-root = Tk()
-my_gui = MyFirstGUI(root)
-root.mainloop()
