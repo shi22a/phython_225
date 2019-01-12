@@ -1,5 +1,5 @@
 
-# factorial
+# factorial:
 num=int(input("Enter a number: "))
 
 def factorial(n):
@@ -9,3 +9,4 @@ def factorial(n):
    return f
 
 print("factorial (%s) = %s" % (num,factorial(num)))
+
