@@ -14,7 +14,15 @@ for i in range(n):
         kevin += n - i
     else:
         stuart += n - i
-print(stuart)
+        
+if kevin > stuart:
+    print ('Kevin', kevin)
+elif stuart > kevin:
+    print ('Stuart', stuart)
+else:
+    print ('Draw')
+
+
 
 
 
