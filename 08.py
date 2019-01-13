@@ -14,7 +14,7 @@ for i in range(n):
         kevin += n - i
     else:
         stuart += n - i
-        
+
 if kevin > stuart:
     print ('Kevin', kevin)
 elif stuart > kevin:
