@@ -1,7 +1,8 @@
+#Write a program that accepts sequence of lines as input
+# and prints the lines after making all characters in the sentence capitalized.
 
 
-
-s="Hello Word"
+s=input("Enter a sentence: ")
 
 def up_letter(x):
     l=[]
